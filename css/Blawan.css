@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header {
+    width: 100%;
+}
+
+.backhead{
+    width: 100%;
+    height: 230px;
+    padding-top: 70px;
+    background-image: url(bl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(70%);
+}
+
+.Head {
+    position: relative;
+    padding: 20px;
+    background: #ffffff;
+    width: 70%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}  
+.Head h1 {
+    /* float: left; */
+    font-family: Trajan Pro;
+    font-weight: bold;
+    font-size: 3em;
+    /* margin-left: 20px; */
+    color: rgb(0, 0, 0);
+}
+
+/* .Head nav {
+    float: right;
+    margin-top: 46px;
+    margin-right: 20%;
+    padding-right: 20px;
+} 
+*/
+.Head i {
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+}
+.Head a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.body{
+    max-width: 90%;
+    padding: 20px;
+    background-color: rgb(228, 228, 228);
+    margin: 10px auto;
+    box-sizing: border-box;
+}
+
+.body img {
+    /* float: left; */
+    min-width: 150px;
+    max-width: 30%;
+    margin: 30px auto;
+}
+.body1 {
+    margin-top: 10px;
+    /* float: none; */
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    margin: 10px;
+    box-sizing: border-box;
+}
+.pemesanan {
+    /* margin-left: 500px; */
+    width: 100%;
+    align-items: center;
+}
+.pemesanan button {
+    background: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.411);
+}
+.borderbawah{
+    width: 100%;
+    height: 100px;
+    background:rgb(70, 43, 9)
+}
+
+@media(max-width:1024px) {
+    .Head h1 {
+        font-size: 2em;
+    }
+    .Head nav i {
+        font-size: 1em;
+    }
+
+}
+
+@media(max-width:768px) {
+    .Head {
+        width: 90%;
+    }
+    .Head h1{
+        font-size: 1.5em;
+    }
+    .Head nav i {
+        font-size: 0.8em;
+    }
+}

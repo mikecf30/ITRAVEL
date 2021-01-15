@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Diri</title>
+    <link rel="stylesheet" href="css/data diri.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="Head">
+        <div class="Head">
+            <h1>IT</h1>
+            <h2>RAVEL</h2>
+            <img src="images/Logo Wonderful Indonesia.png" alt="ini logo" width="150px" height="150px">
+            <nav>
+              <i><a class="contact" href="home.html">HOME</a></i>
+              <i><a class="contact" href="contact.html">CONTACT US</a></i>
+          </nav>
+        </div>
+    </div>
+    
+    <div class="Body">
+        <div class="DaftarBox">
+        <div class="Daftar">
+            <table border="0" >
+                <form action="data diri.html" autocomplete="off" id="Data" name="Data">
+                    <th colspan="2"><h3> please fill in your identity</h3></th>
+                    <tr>
+                        <th><label for="fname">First Name</label></th>
+                        <td><input type="text" id="fname" name="firstname" placeholder="Your First Name.." class="box" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="lname">Last Name</label></th>
+                        <td><input type="text" id="lname" name="lastname" placeholder="Your Last Name.." class="box" required></td>
+                    </tr>
+                    <tr>
+                        <th> <label for="Jk"> Gender </label> </th>
+                        <td colspan="2"><input type="radio" id = "pria" name="Jk" value="1" required ><label for="pria">Male</label>
+                        <input type="radio" id = "Perempuan" name="Jk" value="2" required><label for="Perempuan" >Female</label></td>
+                    </tr>
+                    <tr>
+                        <th><label for="Number Phone">Your Number Phone</label></th>
+                        <td><input type="Number Phone" name="Number Phone" id="NM" placeholder="+62xxxx" class="box" required autocomplete="Number Phone"></td>
+                    </tr>
+                    <tr>
+                        <th><label for="password">Your Age</label></th>
+                        <td><input type="text" id="umur" name="Age" class="box" required></td>
+                    </tr>
+                    <tr>
+                    <th colspan="2"><input onclick="myFunction()"  type="submit" class="mainBtn" id="submit" value="Reserved"></th>
+                    </tr>
+              </form>
+            </table>
+        </div>
+        </div>
+    </div>
+    </div>
+    <br><br><br><br>
+    <div class="borderbawah">
+    </div>
+
+
+<script>
+    function myFunction() {
+    alert("Thanks for Reserved\nWant to see more?");
+    }
+</script>
+    
+</body>
+</html>
+
